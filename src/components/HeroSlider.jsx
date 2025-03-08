@@ -13,7 +13,6 @@ const HeroSlider = ({ images }) => {
 
   return (
     <div className="relative h-[600px] w-full overflow-hidden">
-      
       <div className="absolute inset-0 w-full h-full flex items-center justify-center">
         {images.map((image, index) => (
           <img
@@ -26,21 +25,19 @@ const HeroSlider = ({ images }) => {
           />
         ))}
       </div>
-
-      <div className="absolute inset-0 bg-black opacity-50"></div>
-
-      <div className="relative z-10 flex items-center justify-center h-full text-center text-white">
-        <div>
-          <h1 className="text-4xl md:text-6xl font-bold mb-4 animate-fade-in">
-            Halı ve Koltuk Yıkama Hizmetlerinde Lider
-          </h1>
-          <p className="text-lg md:text-xl mb-8">
-            Profesyonel halı yıkama hizmetlerimizle tanışın.
-          </p>
-          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full transition duration-300">
-            Teklif Al
-          </button>
-        </div>
+      <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-transparent"></div>
+      <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white">
+        <h1 className="text-4xl md:text-6xl font-bold mb-4 animate-fade-in">
+          Yayla Halı Yıkama Fabrikası
+        </h1>
+        <p className="text-lg md:text-xl mb-8">
+          Profesyonel halı yıkama hizmetlerimizle tanışın.
+        </p>
+        <button
+          className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-full shadow-md transition duration-300"
+        >
+          Hizmetlerimize Göz Atın
+        </button>
       </div>
     </div>
   );
