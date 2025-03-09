@@ -17,45 +17,41 @@ const Navbar = () => {
         </div>
         <nav className="hidden md:flex space-x-6">
           <a
-            href="#anasayfa"
+            href="#"
             onClick={() => scrollToSection("anasayfa")}
-            className="text-gray-800 hover:text-blue-600 transition duration-300 font-medium"
+            className="text-gray-900 hover:text-blue-700 transition duration-300 font-semibold text-lg tracking-wide"
           >
             Anasayfa
           </a>
           <a
             href="#aboutUs"
             onClick={() => scrollToSection("aboutUs")}
-            className="text-gray-800 hover:text-blue-600 transition duration-300 font-medium"
+            className="text-gray-900 hover:text-blue-700 transition duration-300 font-semibold text-lg tracking-wide"
           >
             Hakkımızda
           </a>
           <a
             href="#services"
             onClick={() => scrollToSection("services")}
-            className="text-gray-800 hover:text-blue-600 transition duration-300 font-medium"
+            className="text-gray-900 hover:text-blue-700 transition duration-300 font-semibold text-lg tracking-wide"
           >
             Hizmetlerimiz
           </a>
           <a
-            href="#fiyatListesi"
-            onClick={() => scrollToSection("fiyatListesi")}
-            className="text-gray-800 hover:text-blue-600 transition duration-300 font-medium"
-          >
-            Fiyat Listesi
-          </a>
-          <a
             href="#contact"
             onClick={() => scrollToSection("contact")}
-            className="text-gray-800 hover:text-blue-600 transition duration-300 font-medium"
+            className="text-gray-900 hover:text-blue-700 transition duration-300 font-semibold text-lg tracking-wide"
           >
             İletişim
           </a>
         </nav>
 
-        <button className="bg-blue-600 text-white py-3 px-6 rounded hover:bg-blue-700 transition duration-300 font-semibold">
+        <a
+          href="tel:05347375987"
+          className="bg-blue-600 text-white py-3 px-6 rounded-lg hover:bg-blue-700 transition duration-300 font-semibold"
+        >
           Hemen Arayın
-        </button>
+        </a>
       </div>
     </header>
   );
