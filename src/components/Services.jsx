@@ -26,7 +26,9 @@ const Services = () => {
       title: 'Perde Yıkama',
       description: 'Perdelerinize Zarar Vermeden Temizlik Sağlıyoruz !',
       image: '/images/curtain-washing.jpg',
-      details: `"Her perde cinsine özel yıkama teknikleriyle perdelerinizi özenle temizliyoruz. Ücretsiz servisimizle perdelerinizi evinizden alıyor, temizleyip ütüledikten sonra tekrar yerine takıyoruz. En geç 3 gün içinde perdeleriniz tertemiz bir şekilde size teslim edilir. Her türlü perde temizliği ve montajında yaşanan sorunlara karşı garantili hizmet sunuyoruz. Son teknoloji ekipmanlarımızla perdelerinizi gönül rahatlığıyla bize teslim edebilirsiniz."`,
+      details: `"Her perde cinsine özel yıkama teknikleriyle perdelerinizi özenle temizliyoruz. 
+      Ücretsiz servisimizle perdelerinizi evinizden alıyor, temizleyip ütüledikten sonra tekrar yerine takıyoruz. 
+      Her türlü perde temizliği ve montajında yaşanan sorunlara karşı garantili hizmet sunuyoruz."`,
       color: 'bg-yellow-100',
       headerColor: 'bg-yellow-500',
       backgroundImage: '/images/curtain-washing.jpg',
@@ -131,7 +133,7 @@ const Services = () => {
                 Yataklarınızda Hijyen ve Ferahlık: Profesyonel Yatak Yıkama Hizmeti!
               </h3>
             )}
-            <p className="text-red-800 text-xl font-semibold italic mb-4">
+            <p className="text-gray-800 text-xl font-semibold italic mb-4">
               {selectedService.details}
             </p>
             <div className="flex justify-center">
